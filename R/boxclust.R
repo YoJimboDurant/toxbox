@@ -124,15 +124,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
           lilli          
         if(white==F){
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
           }else{
-            print(theplot + thetheme)
+            theplot <- theplot + thetheme
           }
         }else{
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+           theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
           }else{
-            print(theplot + theme_bw() + thetheme)
+            theplot <- theplot + theme_bw() + thetheme
           }
         }
       }
@@ -161,15 +161,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
           lilli       
         if(white==F){
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
           }else{
-            print(theplot + thetheme)
+            theplot <- theplot + thetheme
           }
         }else{
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
           }else{
-            print(theplot + theme_bw() + thetheme)
+            theplot <- theplot + theme_bw() + thetheme
           }
         }
       }
@@ -197,15 +197,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
           lilli     
         if(white==F){
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
           }else{
-            print(theplot + thetheme)
+            theplot <- theplot + thetheme
           }
         }else{
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
           }else{
-            print(theplot + theme_bw() + thetheme)
+            theplot <- theplot + theme_bw() + thetheme
           }
         }
       }
@@ -234,15 +234,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
         lilli   
       if(white==F){
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+          theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
         }else{
-          print(theplot + thetheme)
+          theplot <- theplot + thetheme
         }
       }else{
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+          theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
         }else{
-          print(theplot + theme_bw() + thetheme)
+          theplot <- theplot + theme_bw() + thetheme
         }
       }
       
@@ -270,15 +270,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
         lilli      
       if(white==F){
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+          theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
         }else{
-          print(theplot + thetheme)
+          theplot <- theplot + thetheme
         }
       }else{
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+          theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
         }else{
-          print(theplot + theme_bw() + thetheme)
+          theplot <- theplot + theme_bw() + thetheme
         }
       }
       
@@ -302,15 +302,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
         lilli       
       if(white==F){
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+          theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
         }else{
-          print(theplot + thetheme)
+          theplot <- theplot + thetheme
         }
       }else{
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+          theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
         }else{
-          print(theplot + theme_bw() + thetheme)
+          theplot <- theplot + theme_bw() + thetheme
         }
       }
       
@@ -341,15 +341,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
           lilli       
         if(white==F){
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
           }else{
-            print(theplot + thetheme)
+            theplot <- theplot + thetheme
           }
         }else{
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
           }else{
-            print(theplot + theme_bw() + thetheme)
+            theplot <-theplot + theme_bw() + thetheme
           }
         }
       }
@@ -378,15 +378,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
           lilli       
         if(white==F){
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
           }else{
-            print(theplot + thetheme)
+            theplot <- theplot + thetheme
           }
         }else{
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
           }else{
-            print(theplot + theme_bw() + thetheme)
+            theplot <- theplot + theme_bw() + thetheme
           }
         }
       }
@@ -414,15 +414,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
           lilli       
         if(white==F){
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+            theplot <- theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
           }else{
-            print(theplot + thetheme)
+            theplot <-theplot + thetheme
           }
         }else{
           if(printN==T){
-            print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+            theplot <-theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
           }else{
-            print(theplot + theme_bw() + thetheme)
+            theplot <-theplot + theme_bw() + thetheme
           }
         }
       }
@@ -451,15 +451,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
         lilli    
       if(white==F){
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+          theplot <-theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
         }else{
-          print(theplot + thetheme)
+          theplot <-theplot + thetheme
         }
       }else{
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+          theplot <-theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
         }else{
-          print(theplot + theme_bw() + thetheme)
+          theplot <-theplot + theme_bw() + thetheme
         }
       }
       
@@ -487,15 +487,15 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
         lilli     
       if(white==F){
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+          theplot <-theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
         }else{
-          print(theplot + thetheme)
+          theplot <-theplot + thetheme
         }
       }else{
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+          theplot <-theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
         }else{
-          print(theplot + theme_bw() + thetheme)
+          theplot <-theplot + theme_bw() + thetheme
         }
       }
       
@@ -519,20 +519,22 @@ boxclust <- function(data, outcome, treatment, cluster=NULL, covariate=NULL,
         lilli      
       if(white==F){
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme)
+          theplot <-theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + thetheme
         }else{
-          print(theplot + thetheme)
+          theplot <-theplot + thetheme
         }
       }else{
         if(printN==T){
-          print(theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme)
+          theplot <-theplot + geom_text(data=dats, aes(y=-Inf, label=N), size=nsize, vjust=-2) + theme_bw() + thetheme
         }else{
-          print(theplot + theme_bw() + thetheme)
+          theplot <-theplot + theme_bw() + thetheme
         }
       }
       
     }
     
   }
-  
+
+  return(theplot)
+    
 }
